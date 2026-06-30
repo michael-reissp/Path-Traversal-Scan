@@ -21,7 +21,7 @@ E meu primeiro script oficial. O script automatiza o envio de payloads variados 
 
 ```
 
-git clone https://github.com/seu-usuario/seu-repositorio.github
+git clone https://github.com/michael-reissp/Path-Traversal-Scan/
 
 pip install requests
 
