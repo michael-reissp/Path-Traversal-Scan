@@ -25,7 +25,7 @@ git clone https://github.com/seu-usuario/seu-repositorio.github
 
 pip install requests
 
-python3 scanner.py
+python3 pathtraversal_scan.py
 
 ```
 
