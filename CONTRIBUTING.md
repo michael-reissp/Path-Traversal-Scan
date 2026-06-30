@@ -2,7 +2,7 @@
 
 Primeiramente, muito obrigado por demonstrar interesse em contribuir para o **Path Traversal Scanner**! ✨
 
-Este é um projeto de código aberto voltado para segurança ofensiva ética e automação de testes. Toda contribuição — desde a correção de um erro ortográfico na documentação até a reestruturação do código para Programação Orientada a Objetos — é extremamente valiosa.
+Este é um projeto de código aberto voltado para segurança ofensiva ética e automação de testes. Toda contribuição desde a correção de um erro ortográfico na documentação até a reestruturação do código para Programação Orientada a Objetos é extremamente valiosa.
 
 Este guia serve para orientar o processo de contribuição de forma clara e organizada, garantindo a qualidade do código e a consistência do projeto.
 
